@@ -1,70 +1,134 @@
-# Getting Started with Create React App
+# 🏫 Student Bazaar
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack web platform developed as part of the MCA program at **GLA University** (2nd Year, 4th Semester – 2025).  
+This project was designed and implemented by a 5-member team, led by **Nitish B.** (Lead Developer).
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🎯 Abstract
 
-### `npm start`
+**Student Bazaar** is an interactive online marketplace tailored for university students to **buy, sell, or exchange used goods and services** within their campus ecosystem.  
+The platform bridges the gap between students seeking affordable resources and those wishing to resell pre-owned academic items—books, electronics, accessories, etc.—in a safe, student-only environment.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🧩 Objectives
 
-### `npm test`
+- To create a secure and authenticated platform for intra-campus transactions.  
+- To simplify listing and discovery of second-hand goods.  
+- To build an intuitive and responsive interface for all device types.  
+- To integrate a scalable backend using Node.js and REST APIs.  
+- To implement basic CRUD operations with real-time updates.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## ⚙️ Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Layer | Technology |
+|:------|:------------|
+| **Frontend** | React.js (bootstrapped via Create React App) |
+| **Backend** | Node.js with Express.js |
+| **Database** | MongoDB |
+| **Version Control** | Git & GitHub |
+| **Hosting (Planned)** | Vercel / Render / Railway |
+| **UI Styling** | CSS3 & React Components |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🏗️ System Architecture (Textual UML Overview)
 
-### `npm run eject`
+            ┌──────────────────────────┐
+            │        Frontend          │
+            │  React Components (UI)   │
+            └────────────┬─────────────┘
+                         │ REST API Calls
+                         ▼
+            ┌──────────────────────────┐
+            │        Backend API       │
+            │  Node.js + Express.js    │
+            └────────────┬─────────────┘
+                         │ Mongoose ODM
+                         ▼
+            ┌──────────────────────────┐
+            │        MongoDB           │
+            │   Listings / Users / Chat│
+            └──────────────────────────┘
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This architecture follows an MVC-inspired separation:
+- **Frontend**: handles presentation and user interaction.  
+- **Backend**: manages data routing, authentication, and validation.  
+- **Database**: persists structured user and listing data.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🚀 How to Run Locally
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Prerequisites
+- Node.js (v18+ recommended)
+- npm or yarn
+- MongoDB instance (local or remote)
 
-## Learn More
+### Setup
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+git clone https://github.com/NitishB211/Student_Bazaar.git
+cd Student_Bazaar
+npm install
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The app runs by default at: http://localhost:3000
 
-### Code Splitting
+For the backend:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+cd backend
+npm install
+npm run dev
+```
 
-### Analyzing the Bundle Size
+📚 Features Implemented
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+🔐 User authentication & session management
 
-### Making a Progressive Web App
+🛒 Product listings (CRUD operations)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+📷 Image uploads (planned integration)
 
-### Advanced Configuration
+🔎 Search & filter listings
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+💬 Messaging system (in progress)
 
-### Deployment
+📱 Fully responsive design
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+📈 Future Enhancements
 
-### `npm run build` fails to minify
+Integration of in-app chat system using WebSockets
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Advanced filtering and recommendation engine
+
+Notification center using Firebase Cloud Messaging
+
+AI-based fraud detection for product listings
+
+Deployment with CI/CD pipeline
+
+🧑‍💻 Team
+
+| Name | Role |
+|------|------|
+| **Aman Yadav** | Lead Developer / System Architect |
+| **Nitish Bhatnagar** | UI/UX Engineer |
+| **Piyush Bhagel** | Backend Developer |
+| **Anish Mukherjee** | Database Engineer |
+| **Ravi Roshan Kumar** | QA & Testing Lead |
+
+
+📊 Conclusion
+
+Student Bazaar demonstrates the application of full-stack web technologies in solving a real-world problem within campus boundaries.
+The project focuses on practical usability, modular architecture, and scalable design, marking a step towards industry-ready development practices.
+
+🧾 Acknowledgement
+
+This project was developed under the guidance of the Department of Computer Applications, GLA University, as part of the Master of Computer Applications (MCA) curriculum, 2025.

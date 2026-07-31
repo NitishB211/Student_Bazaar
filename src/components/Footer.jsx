@@ -33,7 +33,7 @@ function Footer() {
               </Link>
             </li>
           </ul>
-          <p className="text-center text-body-secondary"> 2025 Company</p>
+          <p className="text-center text-body-secondary"> 2025 Student Bazaar</p>
         </footer>
       </div>
     </>

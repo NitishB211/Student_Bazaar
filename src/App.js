@@ -43,21 +43,21 @@ And after this go to Free.jsx file inside component folder
 Now again go to AddItem.jsx filwe for further steps
  */
 
-import Navbar from "./Coponent/Navbar";
-import Body from "./Coponent/Body";
-import Free from "./Coponent/Free";
-import Footer from "./Coponent/Footer";
-import Home from "./Coponent/Home";
-import AboutUs from "./Coponent/AboutUS";
-import Features from "./Coponent/Features";
-import ContactUs from "./Coponent/ContactUs";
+import Navbar from "./components/Navbar";
+import Body from "./components/Body";
+import Free from "./components/Free";
+import Footer from "./components/Footer";
+import Home from "./components/Home";
+import AboutUs from "./components/AboutUS";
+import Features from "./components/Features";
+import ContactUs from "./components/ContactUs";
 import { Routes, Route } from "react-router-dom";
-import ShowItem from "./Coponent/ShowItem";
-import AddPaidItem from "./Coponent/AddPaidItem";
-import ItemDetail from "./Coponent/ItemDetail";
-import Login from './Coponent/Login';
-import Signup from './Coponent/Signup';
-import Profile from './Coponent/Profile';
+import ShowItem from "./components/ShowItem";
+import AddPaidItem from "./components/AddPaidItem";
+import ItemDetail from "./components/ItemDetail";
+import Login from './components/Login';
+import Signup from './components/Signup';
+import Profile from './components/Profile';
 function App(){
 return(<>
 
