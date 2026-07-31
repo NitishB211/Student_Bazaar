@@ -1,7 +1,11 @@
 # 🏫 Student Bazaar
 
 A full-stack web platform developed as part of the MCA program at **GLA University** (2nd Year, 4th Semester – 2025).  
+<<<<<<< HEAD
 This project was designed and implemented by a 5-member team, led by **Nitish B.** (Lead Developer).
+=======
+This project was designed and implemented by a 5-member team, led by **Aman Yadav** (Lead Developer).
+>>>>>>> 4c3f2a9f0958d8e6940cf5d46e83342bf38d90c3
 
 ---
 
@@ -131,4 +135,8 @@ The project focuses on practical usability, modular architecture, and scalable d
 
 🧾 Acknowledgement
 
+<<<<<<< HEAD
 This project was developed under the guidance of the Department of Computer Applications, GLA University, as part of the Master of Computer Applications (MCA) curriculum, 2025.
+=======
+This project was developed under the guidance of the Department of Computer Applications, GLA University, as part of the Master of Computer Applications (MCA) curriculum, 2025.
+>>>>>>> 4c3f2a9f0958d8e6940cf5d46e83342bf38d90c3
