@@ -1,8 +1,7 @@
 # 🏫 Student Bazaar
 
-A full-stack web platform developed as part of the MCA program at **GLA University** (2nd Year, 4th Semester – 2025).  
-This project was designed and implemented by a 5-member team, led by **Nitish B.** (Lead Developer).
-=======
+# A full-stack web platform developed as part of the MCA program at **GLA University** (2nd Year, 4th Semester – 2025).
+
 This project was designed and implemented by a 5-member team, led by **Aman Yadav** (Lead Developer).
 
 ---
@@ -16,24 +15,24 @@ The platform bridges the gap between students seeking affordable resources and t
 
 ## 🧩 Objectives
 
-- To create a secure and authenticated platform for intra-campus transactions.  
-- To simplify listing and discovery of second-hand goods.  
-- To build an intuitive and responsive interface for all device types.  
-- To integrate a scalable backend using Node.js and REST APIs.  
+- To create a secure and authenticated platform for intra-campus transactions.
+- To simplify listing and discovery of second-hand goods.
+- To build an intuitive and responsive interface for all device types.
+- To integrate a scalable backend using Node.js and REST APIs.
 - To implement basic CRUD operations with real-time updates.
 
 ---
 
 ## ⚙️ Tech Stack
 
-| Layer | Technology |
-|:------|:------------|
-| **Frontend** | React.js (bootstrapped via Create React App) |
-| **Backend** | Node.js with Express.js |
-| **Database** | MongoDB |
-| **Version Control** | Git & GitHub |
-| **Hosting (Planned)** | Vercel / Render / Railway |
-| **UI Styling** | CSS3 & React Components |
+| Layer                 | Technology                                   |
+| :-------------------- | :------------------------------------------- |
+| **Frontend**          | React.js (bootstrapped via Create React App) |
+| **Backend**           | Node.js with Express.js                      |
+| **Database**          | MongoDB                                      |
+| **Version Control**   | Git & GitHub                                 |
+| **Hosting (Planned)** | Vercel / Render / Railway                    |
+| **UI Styling**        | CSS3 & React Components                      |
 
 ---
 
@@ -57,8 +56,9 @@ The platform bridges the gap between students seeking affordable resources and t
             └──────────────────────────┘
 
 This architecture follows an MVC-inspired separation:
-- **Frontend**: handles presentation and user interaction.  
-- **Backend**: manages data routing, authentication, and validation.  
+
+- **Frontend**: handles presentation and user interaction.
+- **Backend**: manages data routing, authentication, and validation.
 - **Database**: persists structured user and listing data.
 
 ---
@@ -66,6 +66,7 @@ This architecture follows an MVC-inspired separation:
 ## 🚀 How to Run Locally
 
 ### Prerequisites
+
 - Node.js (v18+ recommended)
 - npm or yarn
 - MongoDB instance (local or remote)
@@ -117,14 +118,13 @@ Deployment with CI/CD pipeline
 
 🧑‍💻 Team
 
-| Name | Role |
-|------|------|
-| **Aman Yadav** | Lead Developer / System Architect |
-| **Nitish Bhatnagar** | UI/UX Engineer |
-| **Piyush Bhagel** | Backend Developer |
-| **Anish Mukherjee** | Database Engineer |
-| **Ravi Roshan Kumar** | QA & Testing Lead |
-
+| Name                  | Role                              |
+| --------------------- | --------------------------------- |
+| **Aman Yadav**        | Lead Developer / System Architect |
+| **Nitish Bhatnagar**  | UI/UX Engineer                    |
+| **Piyush Bhagel**     | Backend Developer                 |
+| **Anish Mukherjee**   | Database Engineer                 |
+| **Ravi Roshan Kumar** | QA & Testing Lead                 |
 
 📊 Conclusion
 
@@ -133,6 +133,4 @@ The project focuses on practical usability, modular architecture, and scalable d
 
 🧾 Acknowledgement
 
-This project was developed under the guidance of the Department of Computer Applications, GLA University, as part of the Master of Computer Applications (MCA) curriculum, 2025.
-=======
-This project was developed under the guidance of the Department of Computer Applications, GLA University, as part of the Master of Computer Applications (MCA) curriculum, 2025.
+# This project was developed under the guidance of the Department of Computer Applications, GLA University, as part of the Master of Computer Applications (MCA) curriculum, 2025.
